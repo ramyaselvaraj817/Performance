@@ -21,7 +21,7 @@ function Header() {
         <div onClick={goToHome} className="logo">
           <h4 className="sweet">Sweet Dish</h4>
           <img
-            src="%PUBLIC_URL%/assets/breakfast.png"
+            src="/assets/breakfast.png"
             width="45px"
             height="45px"
             style={{ marginLeft: 10 }}

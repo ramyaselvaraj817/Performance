@@ -30,11 +30,7 @@ function Cart() {
           />
         ) : (
           <div className="container my-5" style={{ textAlign: "center" }}>
-            <img
-              src="%PUBLIC_URL%/assets/shopping-cart.png"
-              width="200px"
-              alt="icon"
-            />
+            <img src="/assets/shopping-cart.png" width="200px" alt="icon" />
             <div className="mt-4">
               <h4 className="orange-red fw-600">Your cart is empty</h4>
               <h5 className="darkblue fw-600">
